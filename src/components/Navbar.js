@@ -29,7 +29,7 @@ export default function Navbar() {
 
         {/* Navigation links */}
         <Box>
-          <Button color="inherit" component={Link} to="/">
+          <Button color="inherit" component={Link} to="/home">
             Home
           </Button>
           <Button color="inherit" component={Link} to="/courses">
@@ -38,13 +38,13 @@ export default function Navbar() {
           <Button color="inherit" component={Link} to="/reports">
             Reports
           </Button>
-          <Button color="inherit" component={Link} to="/reports">
+          <Button color="inherit" component={Link} to="/Assessments">
             Assessments
           </Button>
-          <Button color="inherit" component={Link} to="/reports">
+          <Button color="inherit" component={Link} to="/Profile">
             Profile
           </Button>
-          <Button color="inherit" component={Link} to="/reports">
+          <Button color="inherit" component={Link} to="/logout">
             Logout
           </Button>
         </Box>

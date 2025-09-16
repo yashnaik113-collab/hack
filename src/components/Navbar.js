@@ -38,6 +38,15 @@ export default function Navbar() {
           <Button color="inherit" component={Link} to="/reports">
             Reports
           </Button>
+          <Button color="inherit" component={Link} to="/reports">
+            Assessments
+          </Button>
+          <Button color="inherit" component={Link} to="/reports">
+            Profile
+          </Button>
+          <Button color="inherit" component={Link} to="/reports">
+            Logout
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>
